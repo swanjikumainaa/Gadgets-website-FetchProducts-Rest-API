@@ -1,0 +1,77 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: black;
+    color: white;
+
+}
+.imagenav{
+    width: 90px;
+    height: 60px;
+}
+.signupbutton{
+    background-color: yellow;
+    width: 120px;
+    height: 40px;
+   border-style: none;
+   
+  
+}
+.iconbtn{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.productpro{
+    display: flex;
+    justify-content: space-evenly;
+}
+.newlevel{
+
+}
+
+#products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+}
+.ourProducts{
+    border: solid cornflowerblue;
+    margin: 1%;
+    margin-bottom: 4%;
+    border-radius: 5px;
+    height: 350px;
+    width: 250px;
+    
+    /* width: 350px;
+    height: 260px; */
+}
+.productImage{
+    width: 250px;
+    height: 200px;
+    margin: 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+  
+}
+
+.testimony{
+    display: flex;
+    
+   
+    justify-content: space-evenly;
+}
+.newsletter{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+}
