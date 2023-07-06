@@ -1,4 +1,4 @@
-.nav{
+/* .nav{
     display: flex;
     justify-content: space-around;
     padding: 30px;
@@ -47,31 +47,106 @@
     
     /* width: 350px;
     height: 260px; */
-}
-.productImage{
-    width: 250px;
-    height: 200px;
-    margin: 20px;
-    margin-left: 0px;
-    margin-top: 0px;
-  
-}
 
-.testimony{
-    display: flex;
-    
-   
-    justify-content: space-evenly;
-}
-.newsletter{
-    display: flex;
-    justify-content: space-evenly;
-}
-.footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+ .body{
+    margin:0%;
+    padding: 0%;
+ }   
+.navigation{
     background-color: black;
     color: white;
-    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    margin-top: 0px;
 }
+.navA{
+    display: flex;
+}
+.btnNav{
+    background-color: yellow;
+    border-style: none;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+#icon{
+    width: 20px;
+    height: 20px;
+}
+.categorySearch{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin: 20px;
+}
+.btnSearch{
+    padding-right: 800px;
+    background-color: white;
+    border-color: gray ;
+    border-width: thin;    
+    padding-top:10px ;
+    padding-bottom: 10px;   
+   
+}
+.btnCategory{
+    padding-right: 80px;
+    background-color: white;
+    border-color: gray ;
+    border-width: thin;    
+    padding-top:10px ;
+    padding-bottom: 10px;   
+    
+}
+.trustedGadgets{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+   padding: 50px;
+    background-color: #CFA8FB;
+    width: 75%;
+    margin-left: 120px;
+}
+.trustedGadgetsRight{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-evenly;
+   width: 50%;
+
+}
+.btnTrustedGadgets{
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+#btnOrder{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: yellow;
+    border-style: none;
+}
+#btnExplore{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: none;  
+    border:white solid thin; 
+   opacity: 0.4;
+}
+.accessories{
+   display: flex; 
+   margin-top: 30px;
+   justify-content: space-evenly;
+}
+.specificAccessory{
+    border:black solid;
+    padding:25px;
+    border-width: thin;
+}
+
+
+
